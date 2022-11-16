@@ -1,0 +1,309 @@
+id: sNihM-1m-0av20KN_Qp3qw
+projectId: tfK78mj-EkS6KaMULhUNBQ
+projectName: Healthcare-service-demo-test
+created: 2022-11-16T23:08:22.3684618Z
+protocol: 1
+tests:
+- id: 7Nrhur4GZkCPVQwu_EonWw
+  name: Login-tests
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-14T23:20:36.0000000
+  modificationDate: 2022-11-14T23:28:38.0000000
+  settings:
+    automationAssistant: true
+    appId: -NZ7dHvxoEimcgmMOjyYmw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: -NZ7dHvxoEimcgmMOjyYmw
+    name: cura-healthcare-demo
+    url: https://katalon-demo-cura.herokuapp.com/
+    platform: Web
+  steps:
+  - id: Tfnv0NEAtEOsP1DqSxdttg
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 885kNFrEvUOiuI6G9q0S6g
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: PurdLi5-l0KdHLoo4Ufk2w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: n1x_kEsJ1kqtoq3E3y42xw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: s2Slld41fEK1ahMo4RDsHw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Kr8_iurYNkeXxZ9SJdm-dQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: s2Slld41fEK1ahMo4RDsHw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: John Doe
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ixKK-TY7IUykQZDijCb-6w
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: LfwaKzy9AkSxXZ2YNQfCZA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rzCV23Nwjk2iPlsxatNQCw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: LfwaKzy9AkSxXZ2YNQfCZA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ThisIsNotAPassword
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UdPtRwaKEkqXS5fBFmusQw
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: QHqJKR2v6UKPidwh6T9HyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nU2hSsOoGUqzvZ9Zbs--Xg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: H7ea_jZM7EqKuDQCdbxbVA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Make Appointment
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://katalon-demo-cura.herokuapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: PurdLi5-l0KdHLoo4Ufk2w
+  name: Make Appointment
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#btn-make-appointment'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'Make Appointment']
+    priority: 1
+  - name: XPATH
+    value: //div/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/header/div/a
+    priority: 3
+- id: s2Slld41fEK1ahMo4RDsHw
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txt-username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/input[@placeholder = 'Username']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/section/div/div/div[2]/form/div[2]/div/input
+    priority: 4
+- id: LfwaKzy9AkSxXZ2YNQfCZA
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txt-password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]//input[@placeholder = 'Password']
+    priority: 2
+  - name: XPATH
+    value: //div[3]//input
+    priority: 3
+  - name: XPATH
+    value: /html/body/section/div/div/div[2]/form/div[3]/div/input
+    priority: 4
+- id: QHqJKR2v6UKPidwh6T9HyQ
+  name: Login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#btn-login'
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Login']
+    priority: 1
+  - name: XPATH
+    value: //button
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/div[2]/form/div[4]/div/button
+    priority: 3
+- id: H7ea_jZM7EqKuDQCdbxbVA
+  name: Make Appointment1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h2[. = 'Make Appointment']
+    priority: 0
+  - name: XPATH
+    value: //h2
+    priority: 1
+  - name: XPATH
+    value: /html/body/section/div/div/div/h2
+    priority: 2
+projectParameters: []
+addons: []
