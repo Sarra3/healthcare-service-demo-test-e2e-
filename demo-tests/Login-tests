@@ -1,7 +1,7 @@
-id: JmPCl-ERjkWtipoTvpietw
+id: EJ9laIVOvUCNel0bwJ6hWw
 projectId: tfK78mj-EkS6KaMULhUNBQ
 projectName: Healthcare-service-demo-test
-created: 2022-11-29T23:28:22.4458251Z
+created: 2022-11-29T23:30:41.7519592Z
 protocol: 1
 tests:
 - id: 7Nrhur4GZkCPVQwu_EonWw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-14T23:20:36.0000000
-  modificationDate: 2022-11-29T23:25:52.0000000
+  modificationDate: 2022-11-29T23:30:34.0000000
   settings:
     automationAssistant: true
     appId: -NZ7dHvxoEimcgmMOjyYmw
@@ -264,14 +264,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Fj8qRos5z0CLuz5pZqLb0Q
+  - id: PdENjff49kCmzYAvM_iz8A
     comments: ''
     enabled: true
     invertResult: false
     order: 12
     repeat: 1
-    type: Addon
-    elementId: 3il9gppHRE2LIwutBzVv-w
+    type: Action
+    elementId: Op2wAW-Yr06wxnOMIrEqmA
     settings:
       sleepTime: -1
       timeout: -1
@@ -279,13 +279,9 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: J24N3wcS6ku1Behd5-J2_A
-      source: Store
-      addonId: O61p3g5V70mHoOXaKSKR-g
-    parameterMaps:
-    - name: numberOfCheckboxes
-      value: ''
-      direction: Input
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -763,19 +759,25 @@ elements:
   - name: XPATH
     value: /html/body/nav/ul/li[5]/a
     priority: 2
-- id: 3il9gppHRE2LIwutBzVv-w
-  name: DIV1
+- id: Op2wAW-Yr06wxnOMIrEqmA
+  name: Medicaid
   type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
+    id: jUwODgyNjAyNzk2NTk2MzU
+    name: label
     source: System
   locators:
   - name: XPATH
-    value: //div[3]/div
+    value: >-
+      //label[. = '
+                                   Medicaid
+                              ']
     priority: 0
   - name: XPATH
-    value: /html/body/section/div/div/form/div[3]/div
+    value: //label[2]
     priority: 1
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[3]/div/label[2]
+    priority: 2
 projectParameters: []
 addons:
 - id: 4bmUiXc5BEWvEFrY3DF0bA
@@ -791,19 +793,6 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 1A8C3026E6CFDE10783CF8712B4879508EA0D85D7D92CB87805EB4429A4A3639
-- id: O61p3g5V70mHoOXaKSKR-g
-  source: Store
-  version: 0.2
-  actions:
-  - id: J24N3wcS6ku1Behd5-J2_A
-    name: Click On N Checkboxes Randomly
-    description: Clicking On N Checkboxes Randomly
-    className: ClickOnNCheckboxesRandomly
-  minSdkLevel: 2
-  minSdkVersion: 0.61.1
-  sdkGeneration: 1
-  language: Java
-  hash: 2896D005DC2207093CAD523D0A0F3DB48602177B58A0DA7A86BA8675D2A8CA0C
 - id: inW2AJJ04ku45E9-RN2zqA
   source: Store
   version: 2.10
