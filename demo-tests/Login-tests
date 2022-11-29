@@ -1,7 +1,7 @@
-id: sNihM-1m-0av20KN_Qp3qw
+id: JmPCl-ERjkWtipoTvpietw
 projectId: tfK78mj-EkS6KaMULhUNBQ
 projectName: Healthcare-service-demo-test
-created: 2022-11-16T23:08:22.3684618Z
+created: 2022-11-29T23:28:22.4458251Z
 protocol: 1
 tests:
 - id: 7Nrhur4GZkCPVQwu_EonWw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-14T23:20:36.0000000
-  modificationDate: 2022-11-14T23:28:38.0000000
+  modificationDate: 2022-11-29T23:25:52.0000000
   settings:
     automationAssistant: true
     appId: -NZ7dHvxoEimcgmMOjyYmw
@@ -200,6 +200,283 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: U_RjT5ONLUapZzgHIgxTww
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: FKCoDaeIk0ydij5BfRUGUQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: htq4dol6zkySB6wwY9zGCg
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: FKCoDaeIk0ydij5BfRUGUQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: Hongkong CURA Healthcare Center
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ouUwFbICoUmWelDZ7WXmfw
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: SoRhxSvmjEWDfovpco6hhg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Fj8qRos5z0CLuz5pZqLb0Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Addon
+    elementId: 3il9gppHRE2LIwutBzVv-w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: J24N3wcS6ku1Behd5-J2_A
+      source: Store
+      addonId: O61p3g5V70mHoOXaKSKR-g
+    parameterMaps:
+    - name: numberOfCheckboxes
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3zkdH5SuIEWR2PsIZWwMSQ
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: tLYhrmwBAEW95wijnuPGog
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: E_ezRdFenkaUQE4p0YVWtA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Addon
+    elementId: oJcwkJGKRUGlfmTMJrWqhQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: bQ8mwVtUSUWR82ER9g1gUg
+      source: Store
+      addonId: 4bmUiXc5BEWvEFrY3DF0bA
+    parameterMaps:
+    - name: TimeOut
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qryiDKIYT0Sp3_i5O1_nQg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: -zseWkRqaU6iXrHIJ1TWZw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5HOA7V9QHkyQOoRwZSeGZA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: 1-mmjb4mS0Wkzinl8JnRlg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Facility
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nnH0-UfyQ0e1xs0xUEPFgA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: egV_Cq_tOkyZQABUycKsTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Hongkong CURA Healthcare Center
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: U-o122aq80qUrd8WAQZyVw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: F2KIIsa8TkidF_TrKO7LQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 16/11/2022
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ycGJNWeCEU2r5LI4GyvmcQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Addon
+    elementId: s4KkVDLXYEGmcLjTd3ESLw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: l1xNsbnUYUKBREzHMdcr5Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Addon
+    elementId: PfbxISMGPUil-Ki1OgeXqw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: U2veSbE9E0aIfg5GFB2HtQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -305,5 +582,238 @@ elements:
   - name: XPATH
     value: /html/body/section/div/div/div/h2
     priority: 2
+- id: FKCoDaeIk0ydij5BfRUGUQ
+  name: facility
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#combo_facility'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='facility']"
+    priority: 1
+  - name: XPATH
+    value: //select
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[1]/div/select
+    priority: 3
+- id: SoRhxSvmjEWDfovpco6hhg
+  name: hospital_readmission
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#chk_hospotal_readmission'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='hospital_readmission']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[2]/div/label/input
+    priority: 3
+- id: tLYhrmwBAEW95wijnuPGog
+  name: visit_date
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txt_visit_date'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='visit_date']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'dd/mm/yyyy']
+    priority: 2
+  - name: XPATH
+    value: //div/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[4]/div/div/input
+    priority: 4
+- id: oJcwkJGKRUGlfmTMJrWqhQ
+  name: DIV
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div
+    priority: 1
+- id: -zseWkRqaU6iXrHIJ1TWZw
+  name: Book Appointment
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#btn-book-appointment'
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Book Appointment']
+    priority: 1
+  - name: XPATH
+    value: //button
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[6]/div/button
+    priority: 3
+- id: 1-mmjb4mS0Wkzinl8JnRlg
+  name: Facility1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                          Facility
+                      ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/section/div/div/div[2]/div[1]
+    priority: 2
+- id: egV_Cq_tOkyZQABUycKsTA
+  name: Hongkong CURA Healthcare Center
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#facility'
+    priority: 0
+  - name: XPATH
+    value: //p[. = 'Hongkong CURA Healthcare Center']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/p
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/div[2]/div[2]/p
+    priority: 3
+- id: F2KIIsa8TkidF_TrKO7LQw
+  name: 16/11/2022
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#visit_date'
+    priority: 0
+  - name: XPATH
+    value: //p[. = '16/11/2022']
+    priority: 1
+  - name: XPATH
+    value: //div[5]//p
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/div[5]/div[2]/p
+    priority: 3
+- id: s4KkVDLXYEGmcLjTd3ESLw
+  name: menu-toggle
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#menu-toggle'
+    priority: 0
+  - name: XPATH
+    value: //body/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/a
+    priority: 2
+- id: PfbxISMGPUil-Ki1OgeXqw
+  name: Logout
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Logout']
+    priority: 0
+  - name: XPATH
+    value: //li[5]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/nav/ul/li[5]/a
+    priority: 2
+- id: 3il9gppHRE2LIwutBzVv-w
+  name: DIV1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[3]/div
+    priority: 1
 projectParameters: []
-addons: []
+addons:
+- id: 4bmUiXc5BEWvEFrY3DF0bA
+  source: Store
+  version: 0.3
+  actions:
+  - id: bQ8mwVtUSUWR82ER9g1gUg
+    name: Click on dynamic element
+    description: Click on dynamic element
+    className: DynamicClick
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 1A8C3026E6CFDE10783CF8712B4879508EA0D85D7D92CB87805EB4429A4A3639
+- id: O61p3g5V70mHoOXaKSKR-g
+  source: Store
+  version: 0.2
+  actions:
+  - id: J24N3wcS6ku1Behd5-J2_A
+    name: Click On N Checkboxes Randomly
+    description: Clicking On N Checkboxes Randomly
+    className: ClickOnNCheckboxesRandomly
+  minSdkLevel: 2
+  minSdkVersion: 0.61.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2896D005DC2207093CAD523D0A0F3DB48602177B58A0DA7A86BA8675D2A8CA0C
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: U2veSbE9E0aIfg5GFB2HtQ
+    name: Click if visible
+    description: Click {{element}} if it's visible
+    className: io.testproject.addon.ClickActions.ClickIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
