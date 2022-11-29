@@ -1,7 +1,7 @@
-id: Bj69Lf2iZUutEAfFRUGxKw
+id: t8H3c5sG5keP_GjBb4OPrQ
 projectId: tfK78mj-EkS6KaMULhUNBQ
 projectName: Healthcare-service-demo-test
-created: 2022-11-29T23:30:40.4440578Z
+created: 2022-11-29T23:33:01.9398531Z
 protocol: 1
 tests:
 - id: 7Nrhur4GZkCPVQwu_EonWw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-11-14T23:20:36.0000000
-  modificationDate: 2022-11-29T23:30:34.0000000
+  modificationDate: 2022-11-29T23:32:45.0000000
   settings:
     automationAssistant: true
     appId: -NZ7dHvxoEimcgmMOjyYmw
@@ -473,6 +473,27 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: m3cgIS3x-E6IkDZQYjlbRQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: TIpj5CUILEeAXd4kq6dwFw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -777,6 +798,22 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/section/div/div/form/div[3]/div/label[2]
+    priority: 2
+- id: TIpj5CUILEeAXd4kq6dwFw
+  name: CURA Healthcare Service
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h1[. = 'CURA Healthcare Service']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/header/div/h1
     priority: 2
 projectParameters: []
 addons:
